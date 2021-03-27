@@ -43,7 +43,7 @@ print(f'Average Change: ${round((sum(avg_change)/len(avg_change)), 2)}')
 print(f'Greatest Increase in Profits: {months[miprint]} (${great_in})')
 print(f'Greatest Decrease in Profits: {months[mdprint]} (${great_de})')  
 
-output_file = os.path.join("..", "PyBank","PyBankOutput.txt")
+output_file = os.path.join("..", "PyBank","Analysis","PyBankOutput.txt")
 
 with open(output_file, "w") as writer: 
     file_writer = csv.writer(writer, delimiter= ',')
